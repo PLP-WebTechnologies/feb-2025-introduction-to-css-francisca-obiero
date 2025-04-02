@@ -1,0 +1,62 @@
+/* Global Styles */
+body {
+    background-image: url(https://images.pexels.com/photos/1010519/pexels-photo-1010519.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); /* File path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #f4f4f9; /* Fallback color */
+    font-family: Arial, sans-serif; /* Custom font */
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1 {
+    color: chartreuse;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+    color: brown;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Link Styling */
+#google {
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid blueviolet; /* Added border */
+    padding: 5px; /* Added padding */
+    margin: 10px 0; /* Added margin */
+    display: inline-block;
+}
+
+#google:hover {
+    color: darkviolet;
+    background-color: lightgray;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto; /* Center the image */
+    border: 5px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+    max-width: 100%; /* Make it responsive */
+}
+
+/* Footer Styling */
+.home-footer {
+    color: green;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 2px solid green; /* Added border */
+    background-color: #f4f4f9;
+}
